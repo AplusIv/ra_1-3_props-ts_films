@@ -32,7 +32,7 @@ function App() {
         <img className='film-cart' src={intouchables} alt="film cart" />
         <div className='rating-info'>
           <span>Rating:</span>
-          <Stars count={11}/>
+          <Stars count={1}/>
         </div>
       </div>
       <div className='film-card'>

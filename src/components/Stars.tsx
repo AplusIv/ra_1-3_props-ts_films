@@ -1,7 +1,7 @@
 import Star from './Star'
 
 type Props = {
-  count: number,
+  count: 0 | 1 | 2 | 3 | 4 | 5,
 }
 
 const Stars = ({count = 0}: Props): React.JSX.Element | null => {
